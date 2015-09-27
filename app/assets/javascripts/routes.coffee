@@ -4,3 +4,11 @@ App.Router.reopen
 
 App.Router.map ->
   @resource 'topics'
+
+App.IndexRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    @controllerFor('application').set('currentRoute', 'home')
+
+App.TopicsRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    @controllerFor('application').set('currentRoute', 'topics')
