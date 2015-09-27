@@ -26,14 +26,12 @@ group :development, :test do
   gem 'pry-rails'
 end
 
-group :assets do
-  gem 'sass-rails', '~> 5.0.4'
-  gem 'coffee-rails', '~> 4.1'
-  gem 'compass-rails'
-  gem 'uglifier'
-  gem 'bootstrap-sass', '~> 3.3.5.1'
-  gem 'handlebars_assets', '0.20.2'
-end
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sass-rails', '~> 5.0.4'
+gem 'coffee-rails', '~> 4.1'
+gem 'compass-rails'
+gem 'uglifier'
+gem 'handlebars_assets', '0.20.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

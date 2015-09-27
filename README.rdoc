@@ -1,28 +1,13 @@
-== README
+== Ember Excerscise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Playing with Ember.js and Rails API
 
-Things you may want to cover:
+This app shold have:
 
-* Ruby version
+* User registration, edit profile, set avatar, etc
 
-* System dependencies
+* Forum with topics, posts and authors
 
-* Configuration
+* Photo gallery with AJAX upload, progress bar
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Something else that could be interesting to practice
